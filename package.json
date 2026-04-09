@@ -14,26 +14,27 @@
     "check": "oxlint --plugin react --plugin react-hooks src && oxfmt --check src"
   },
   "dependencies": {
+    "@hono/node-server": "^1.19.13",
+    "bini-overlay": "^1.0.5",
+    "bini-router": "1.0.32",
+    "bini-server": "^1.0.2",
+    "hono": "^4.12.9",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-router-dom": "^7.13.1",
-    "hono": "^4.12.9",
-    "bini-router": "^1.0.32",
-    "bini-overlay": "^1.0.5",
-    "bini-server": "^1.0.2"
+    "react-router-dom": "^7.13.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^6.0.1",
-    "vite": "^8.0.3",
-    "oxlint": "latest",
-    "oxfmt": "latest",
-    "bini-env": "^1.0.8",
-    "bini-export": "^1.0.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^25.4.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@types/node": "^25.4.0",
-    "typescript": "^5.9.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "bini-env": "^1.0.8",
+    "bini-export": "^1.0.1",
+    "oxfmt": "latest",
+    "oxlint": "latest",
     "tailwindcss": "^4.2.1",
-    "@tailwindcss/vite": "^4.2.1"
+    "typescript": "^5.9.3",
+    "vite": "^8.0.3"
   }
 }
