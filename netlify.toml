@@ -1,0 +1,12 @@
+[build]
+  command = "vite build"
+  publish = "dist"
+
+[[edge_functions]]
+  path     = "/api/*"
+  function = "api"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
