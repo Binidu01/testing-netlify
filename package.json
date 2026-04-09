@@ -16,7 +16,7 @@
   "dependencies": {
     "@hono/node-server": "^1.19.13",
     "bini-overlay": "^1.0.5",
-    "bini-router": "1.0.29",
+    "bini-router": "1.0.30",
     "bini-server": "^1.0.2",
     "hono": "^4.12.9",
     "react": "^19.2.4",
